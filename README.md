@@ -31,4 +31,4 @@ This has been tested against the user manuals for the following parts:
 
 ## License ##
 
-MIT
+[MIT](LICENSE.txt)
