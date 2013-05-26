@@ -155,7 +155,7 @@ File.open(filename, "r") do |datasheet|
   while (line = datasheet.gets)
     # If this line is the start of a register overview table
     if matchdata = $perhiperal_regex.match(line)
-      if !/\)(?:\s)*$/.match(line) # If the title runs on to a new line
+      if !/(?:\)|ontinued)(?:\s)*$/.match(line) # If the title runs on to a new line
         datasheet.gets # Dump a line
       end
       perhiperals = parse_perhiperal(datasheet, matchdata, perhiperals);
