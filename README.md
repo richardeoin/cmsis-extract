@@ -20,7 +20,14 @@ user manual.
 Then run `ruby extract.rb` and follow the prompts.
 
 **The output is unlikely to be fully correct, you will need to do some by hand
-  youself! Be sure to check against the device datasheet**
+  youself! Be sure to check against the device datasheet.**
+
+## Tested against ##
+
+This has been tested against the user manuals for the following parts:
+* LPC11xx
+
+**Your millage may vary with other user manuals.**
 
 ## License ##
 
